@@ -1,10 +1,12 @@
 INSERT INTO
-  table_name (burger_name, devoured)
+  burgers (burger_name, devoured)
 VALUES
-  (baconator, 1);
+  ('Baconator', true);
 INSERT INTO
-  table_name (burger_name, devoured)
-VALUES(QuarterPounder, 0);
+  burgers (burger_name, devoured)
+VALUES
+  ('Big Mac', false);
 INSERT INTO
-  table_name (burger_name, devoured)
-VALUES(Whopper, 1);
+  burgers (burger_name, devoured)
+VALUES
+  ('Whopper', true);
